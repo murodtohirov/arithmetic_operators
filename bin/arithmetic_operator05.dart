@@ -6,6 +6,12 @@ Create a variable called "answer".
 Find the division of a and b then assign to "answer".
 
 */
+import 'dart:html_common';
+
 void main() {
+  int a = 72;
+  int b = 9;
+  int answer = a ~/ b;
+  print(answer);
   //write your code here
 }
